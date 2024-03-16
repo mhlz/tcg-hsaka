@@ -1,0 +1,21 @@
+{
+	"name": "hsaka-tcg",
+	"module": "index.ts",
+	"type": "module",
+	"scripts": {
+		"lint": "prettier --write ."
+	},
+	"devDependencies": {
+		"@types/bun": "latest",
+		"prettier": "^3.2.5"
+	},
+	"peerDependencies": {
+		"typescript": "^5.0.0"
+	},
+	"dependencies": {
+		"@opencreek/ext": "^2.7.2"
+	},
+	"prettier": {
+		"semi": false
+	}
+}
